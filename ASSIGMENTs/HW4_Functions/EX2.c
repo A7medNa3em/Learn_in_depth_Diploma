@@ -15,13 +15,9 @@ int main()
 
 int fact(int num)
 {
-    int f = num;
-
     if (num > 1)
     {
-        num--;
-        f = f * fact(num);
-    }
 
-    return f;
+        return (num * fact(num - 1));
+    }
 }

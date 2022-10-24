@@ -1,0 +1,243 @@
+Init US driver       >>> go into busy    state 
+Init OA Algorthim    >>> go into Waiting state 
+Init DC motor driver >>> go into Idel state 
+*
+*
+-----------> US_Sensor
+	US_busy State >> Distance : 53 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 53 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 54 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 54 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 54 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 54 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 46 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 46 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 52 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 52 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 50 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 50 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 50 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 50 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 55 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 55 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 46 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 46 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 45 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 45 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 52 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 52 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 52 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 52 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 50 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 50 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 53 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 53 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 51 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 51 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 52 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 52 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 48 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 48 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 52 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 52 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 54 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 54 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 47 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 47 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 52 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 52 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 52 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 52 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 53 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 53 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 55 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 55 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 51 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 51 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 52 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 52 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 53 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 53 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 50 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 50 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 51 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 51 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 52 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 52 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 47 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 47 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 46 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Waiting state >> speed : 0 >> distance : 46 
+OA_Algorthim ---->> DC_Motor 
+	DC_busy State  >> speed : 0 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 54 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 54 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+
+-----------> US_Sensor
+	US_busy State >> Distance : 55 
+US_Sensor  ------------->> OA_Algorthim  
+	OA_Driving state >> speed : 30 >> distance : 55 
+OA_Algorthim ------------->> DC_Motor 
+	DC_busy State  >> speed : 30 
+

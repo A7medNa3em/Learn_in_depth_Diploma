@@ -1,0 +1,725 @@
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 1
+[Done]-->Insert New Student  
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 10
+
+SAVING DATA [Done]-->Insert New Student
+=========
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 2
+================================== 
+Enter First Name  : Hazem
+Enter Last  Name  : Essam
+Enter Student ID  : 22
+[ERORR]--> ID 22 is inserted before
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 2
+================================== 
+Enter First Name  : Hazem
+Enter Last  Name  : Essam
+Enter Student ID  : 410
+Enter Courses ID  : 12
+1
+2
+3
+6
+8
+9
+4
+Enter Student GPA : 1.5
+[Done]--> Insert student 
+=====================================
+        Name    : Hazem Essam
+        ID      : 410
+        Courses : 12 , 1 , 2 , 3 , 6 , 8 , 9 , 4
+        GPA     : 1.5
+=====================================
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 10
+
+SAVING DATA ==========
+
+More operation Enter (1)         Exit Enter (0)
+
+==================================^C
+F:\Learn_in_Depth Course\Project_2>app.exe >> log.txt
+1
+5
+55
+^C
+F:\Learn_in_Depth Course\Project_2>app.exe >> log.txt
+1
+^C
+F:\Learn_in_Depth Course\Project_2>app.exe >> log.txt
+1
+1
+10
+0
+
+F:\Learn_in_Depth Course\Project_2>app.exe > log.txt  
+1
+2
+8
+22
+0
+1
+11
+0
+^C
+F:\Learn_in_Depth Course\Project_2>app.exe          
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 1
+[Done]-->Insert New Student  
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+
+
+More operation Enter (1)         Exit Enter (0)
+2
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 2
+================================== 
+Enter First Name  : Aya
+Enter Last  Name  : Magdy
+Enter Student ID  : 99
+Enter Courses ID  : 1
+22
+4
+5
+6
+7
+8
+9
+Enter Student GPA : 3.1
+[Done]--> Insert student 
+=====================================
+        Name    : Aya Magdy
+        ID      : 99
+        Courses : 1 , 22 , 4 , 5 , 6 , 7 , 8 , 9
+        GPA     : 3.1
+=====================================
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 2
+================================== 
+Enter First Name  : Ahmed
+Enter Last  Name  : Samir
+Enter Student ID  : 22
+[ERORR]--> ID 22 is inserted before
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 3
+================================== 
+Enter Student ID : 55
+[Done]--> Student is found
+=====================================
+        Name    : Khaled Naeem
+        ID      : 55
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 3
+================================== 
+Enter Student ID : 110
+[ERORR]--> Student Id is not found
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 4 
+================================== 
+Enter Student first name : Ahmed 
+[Done]--> There are 2 student found
+=====================================
+        Name    : Ahmed Naeem
+        ID      : 22
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Ahmed mo
+        ID      : 57
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 4
+================================== 
+Enter Student first name : Omar
+[Done]--> There are 1 student found
+=====================================
+        Name    : Omar Khaled
+        ID      : 88
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 4
+================================== 
+Enter Student first name : Gamal
+[ERORR]--> Student with this name is not found
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 5
+Number of students : 9  Avalible Seats : 41 
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 6
+================================== 
+Enter Student ID to be deleted : 55
+=====================================
+        Name    : Khaled Naeem
+        ID      : 55
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+[Done]--> Student is Deleted
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 7
+================================== 
+Enter Course number : 2
+=====================================
+        Name    : Sayed Hassan
+        ID      : 23
+        Courses : 1 , 2 , 3 , 4 , 5 , 6 , 8 , 8
+        GPA     : 3.5
+=====================================
+Number of students in course 2 id 1 students
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 7
+================================== 
+Enter Course number : 3
+=====================================
+        Name    : Ahmed mo
+        ID      : 57
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : hala ahmed
+        ID      : 67
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Omar Khaled
+        ID      : 88
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Esraa Ali
+        ID      : 123
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Alaa Ali
+        ID      : 111
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.5
+=====================================
+=====================================
+        Name    : Ahmed Naeem
+        ID      : 22
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Sayed Hassan
+        ID      : 23
+        Courses : 1 , 2 , 3 , 4 , 5 , 6 , 8 , 8
+        GPA     : 3.5
+=====================================
+Number of students in course 3 id 7 students
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 7
+================================== 
+Enter Course number : 8
+=====================================
+        Name    : Ahmed mo
+        ID      : 57
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : hala ahmed
+        ID      : 67
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Omar Khaled
+        ID      : 88
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Esraa Ali
+        ID      : 123 
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Alaa Ali
+        ID      : 111
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.5
+=====================================
+=====================================
+        Name    : Aya Magdy
+        ID      : 99
+        Courses : 1 , 22 , 4 , 5 , 6 , 7 , 8 , 9
+        GPA     : 3.1
+=====================================
+=====================================
+        Name    : Ahmed Naeem
+        ID      : 22
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Sayed Hassan
+        ID      : 23
+        Courses : 1 , 2 , 3 , 4 , 5 , 6 , 8 , 8
+        GPA     : 3.5
+=====================================
+Number of students in course 8 id 8 students
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 8
+================================== 
+Enter Student ID to be updated : 22
+[Done]--> Enter Student New data
+=====================================
+        Name    : Ahmed Naeem
+        ID      : 22
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+Enter First Name  : Ahmed
+Enter Last  Name  : Naeem
+Enter Student ID  : 22
+Enter Courses ID  : 1
+5
+3
+4
+5
+7
+8
+12
+Enter Student GPA : 3.6
+[Done]--> Insert student 
+=====================================
+        Name    : Ahmed Naeem
+        ID      : 22
+        Courses : 1 , 5 , 3 , 4 , 5 , 7 , 8 , 12
+        GPA     : 3.6
+=====================================
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 9
+=====================================
+        Name    : Sayed Hassan
+        ID      : 23
+        Courses : 1 , 2 , 3 , 4 , 5 , 6 , 8 , 8
+        GPA     : 3.5
+=====================================
+=====================================
+        Name    : Ahmed mo
+        ID      : 57
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : hala ahmed
+        ID      : 67
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Omar Khaled
+        ID      : 88
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Esraa Ali
+        ID      : 123
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.4
+=====================================
+=====================================
+        Name    : Alaa Ali
+        ID      : 111
+        Courses : 1 , 5 , 3 , 4 , 5 , 6 , 7 , 8
+        GPA     : 3.5
+=====================================
+=====================================
+        Name    : Aya Magdy
+        ID      : 99
+        Courses : 1 , 22 , 4 , 5 , 6 , 7 , 8 , 9
+        GPA     : 3.1
+=====================================
+=====================================
+        Name    : Ahmed Naeem
+        ID      : 22
+        Courses : 1 , 5 , 3 , 4 , 5 , 7 , 8 , 12
+        GPA     : 3.6
+=====================================
+
+
+More operation Enter (1)         Exit Enter (0)
+1
+
+==================================
+Choose from this Options
+1- Add Student From File
+2- Add Student Manually
+3- Find Student by ID
+4- Find Student by first name
+5- Number of Students
+6- Delete Student by ID
+7- Find Student in Course number
+8- Update Student
+9- Display Database
+10- Save Database
+
+Enter Operation : 10
+
+SAVING DATA [Done]-->Insert New Student
+[Done]-->Insert New Student
+[Done]-->Insert New Student
+===========

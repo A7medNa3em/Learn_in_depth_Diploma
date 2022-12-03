@@ -1,0 +1,22 @@
+#ifndef KEYPAD_h
+#define KEYPAD_h
+
+typedef enum
+{
+    Keypad_1,
+    keypad_2
+} KeypadNum_t;
+
+typedef enum
+{
+    KEY_NOT_PRESSED,
+    KEY_PRESSED
+} KeyStatus;
+
+/* Write defult state to rows pins*/
+void KeyPad_init();
+
+/* Get Key pressed or not and key row and colum */
+KeyStatus GetKeyPressed(uint8 *row, uint8 *colum);
+
+#endif

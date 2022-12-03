@@ -1,0 +1,12 @@
+EXTI.c:21:9:GetLineNum	24	static
+EXTI.c:33:6:NVIC_Enable	16	static
+EXTI.c:73:6:NVIC_Disable	16	static
+EXTI.c:123:6:MCAL_EXTI_Intit	32	static
+EXTI.c:217:6:MCAL_EXTI_DeIntit	4	static
+EXTI.c:244:6:EXTI0_IRQHandler	8	static
+EXTI.c:252:6:EXTI1_IRQHandler	8	static
+EXTI.c:260:6:EXTI2_IRQHandler	8	static
+EXTI.c:268:6:EXTI3_IRQHandler	8	static
+EXTI.c:276:6:EXTI4_IRQHandler	8	static
+EXTI.c:283:6:EXTI9_5_IRQHandler	8	static
+EXTI.c:292:6:EXTI15_10_IRQHandler	8	static

@@ -1,0 +1,75 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   28/11/2022
+ *       @file   :   stm32f103x6.h
+ *************************************************************/
+
+/*************************************************************
+ *  Includes
+ */
+#include <keyPad.h>
+
+#include "../../MCAL/includes/stm32f103x6.h"
+#include "../../MCAL/includes/GPIO.h"
+#include "keypad_cfg.h"
+
+/* Write default state to rows pins according to HW connections */
+void KeyPad_init()
+{
+	uint8_t index = 0;
+
+	for (index = 0; index > KeypadsCount; index++)
+	{
+		MCAL_GPIO_WritePin(Keypads[index].rows[0].keyport ,Keypads[index].rows[0].keypin ,Keypads[index].defState);
+		MCAL_GPIO_WritePin(Keypads[index].rows[1].keyport ,Keypads[index].rows[1].keypin ,Keypads[index].defState);
+		MCAL_GPIO_WritePin(Keypads[index].rows[2].keyport ,Keypads[index].rows[2].keypin ,Keypads[index].defState);
+		MCAL_GPIO_WritePin(Keypads[index].rows[3].keyport ,Keypads[index].rows[3].keypin ,Keypads[index].defState);
+
+	}
+}
+
+/* Get Key pressed or not and key row and colum */
+KeyStatus_t GetKeyPressed(uint8_t *row, uint8_t *colum)
+{
+	KeyStatus_t pressstatus = KEY_NOT_PRESSED;
+	uint8_t index = 0, rowindex = 0, colindex = 0, breakFlag = 0;
+	STATE_t drive_state = LOW;
+	/* for each keypad*/
+	for (index = 0; index < KeypadsCount; index++)
+	{
+
+		/*Check drive state by inverting default state*/
+		if (LOW == Keypads[index].defState)
+		{
+			drive_state = HIGH;
+		}
+		else if (HIGH == Keypads[index].defState)
+		{
+			drive_state = LOW;
+		}
+		/*monitor rows by drive state and check colum status */
+		for (rowindex = 0; rowindex < 4; rowindex++)
+		{
+			/*monitor rows by drive state*/
+			MCAL_GPIO_WritePin(Keypads[index].rows[0].keyport ,Keypads[index].rows[0].keypin,drive_state );
+			MCAL_GPIO_WritePin(Keypads[index].rows[1].keyport ,Keypads[index].rows[1].keypin , drive_state);
+			MCAL_GPIO_WritePin(Keypads[index].rows[2].keyport ,Keypads[index].rows[2].keypin, drive_state );
+			MCAL_GPIO_WritePin(Keypads[index].rows[3].keyport ,Keypads[index].rows[3].keypin , drive_state);
+		}
+			/*check colum status */
+			for (colindex = 0; colindex < 4; colindex++)
+			{
+				if (drive_state == MCAL_GPIO_ReadPin(Keypads[index].cols[colindex].keyport, Keypads[index].cols[colindex].keypin))
+				{
+					pressstatus = KEY_PRESSED;
+					*colum = colindex;
+					*row = rowindex;
+
+					breakFlag = 1;
+				}
+			}
+		}
+
+}
+
+

@@ -1,0 +1,23 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   28/11/2022
+ *       @file   :   GPIO.h
+ *************************************************************/
+#ifndef LCD_H
+#define LCD_H
+
+
+/*LCD APIs */
+/* specify entery mode, display mode and operation mode then clear LCD*/
+void LCD_Init(void);
+
+void LCD_WriteChar(char ch, uint8 row, uint8 col);
+
+void LCD_WriteString(uint8 *str, uint8 len, uint8 row, uint8 col);
+
+void LCD_ClearDisplay(void);
+
+void LCD_CreatCustomChar(uint8 *ch, uint8 len, uint8 index);
+
+void LCD_WriteCustomChar(uint8 index, uint8 row, uint8 col);
+#endif

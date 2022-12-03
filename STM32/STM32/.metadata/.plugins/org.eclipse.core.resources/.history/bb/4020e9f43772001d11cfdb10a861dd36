@@ -1,0 +1,69 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   1/12/2022
+ *       @file   :   EXTI.c
+ *************************************************************/
+#include "EXTI.h"
+
+
+/*************************************************************
+EXTI APIs
+ *************************************************************/
+
+/*************************************************************
+ *   @Fun - MCAL_EXTI_Intit
+ *   @brief - init EXTI
+ *   @param [in] - EXTI_Config (Pin number , port , callback
+ *   @retval -none
+ *   @Note -
+ */
+void MCAL_EXTI_Intit(EXTI_Config_t* GPIO_Pinconfig_t)
+{
+
+	/* 1- Configure GPIO pin as input float*/
+	GPIO_Pinconfig_t EXTIpin ={GPIO_Pinconfig_t->PinNum ,GPIO_Pinconfig_t->EXTI_Port ,GPIO_MODE_INPUT_FLOAT, GPIO_SPEED_RSP};
+
+
+	MCAL_GPIO_Init(EXTI_Config->EXTI_Port);
+
+	/*2- Configure AFIO to route it for port*/
+
+	/* 3- Configure the Trigger Selection bits of the Interrupt lines (EXTI_RTSR and EXTI_FTSR)*/
+
+	/* 4- update IRQ Callback */
+
+	/* 5- Configure the mask bits of the 20 Interrupt lines (EXTI_IMR) and on NVIC */
+
+}
+
+
+/*************************************************************
+ *   @Fun - MCAL_EXTI_DeInit
+ *   @brief - Deinit EXTI  and return EXTI registers to reset state
+ *   @Note -
+ */
+void MCAL_EXTI_DeIntit(void)
+{
+	/* Reset all EXTI registers */
+	EXTI->EMR = 0x00000000 ;
+	EXTI->FTSR = 0x00000000;
+	EXTI->IMR =0x00000000 ;
+	EXTI->PR = 0x00000000;
+	EXTI->RTSR =0x00000000;
+
+	/* Clear by 1*/
+	EXTI->SWIER = 0xFFFFFFFF;
+
+	/* Disable NVIC IRQs*/
+	EXTI0_IRQ6_DISABLE() ;
+	EXTI1_IRQ7_DISABLE() ;
+	EXTI2_IRQ8_DISABLE() ;
+	EXTI3_IRQ9_DISABLE() ;
+	EXTI4_IRQ10_DISABLE() ;
+	EXTI5_9_IRQ23_DISABLE() ;
+	EXTI10_15_IRQ40_DISABLE() ;
+
+
+
+
+}

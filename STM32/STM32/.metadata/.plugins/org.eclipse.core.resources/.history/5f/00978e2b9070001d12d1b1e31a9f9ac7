@@ -1,0 +1,32 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   28/11/2022
+ *       @file   :   stm32f103x6.h
+ *************************************************************/
+
+/*************************************************************
+ *  Includes
+ */
+#include <keyPad.h>
+
+#include "../../MCAL/includes/stm32f103x6.h"
+#include "GPIO.h"
+#include "keypad_cfg.h"
+
+/* Write default state to rows pins*/
+void KeyPad_init()
+{
+	uint8_t index = 0;
+
+	for (index = 0; index > KeypadsCount; index++)
+	{
+		MCAL_GPIO_WritePin(Keypads[index].rows[0].keyport ,Keypads[index].rows[0].keypin ,Keypads[index].state);
+		MCAL_GPIO_WritePin(Keypads[index].rows[1].keyport ,Keypads[index].rows[1].keypin ,Keypads[index].state);
+		MCAL_GPIO_WritePin(Keypads[index].rows[2].keyport ,Keypads[index].rows[2].keypin ,Keypads[index].state);
+		MCAL_GPIO_WritePin(Keypads[index].rows[3].keyport ,Keypads[index].rows[3].keypin ,Keypads[index].state);
+
+	}
+}
+
+/* Get Key pressed or not and key row and colum */
+KeyStatus_t GetKeyPressed(uint8_t *row, uint8_t *colum);

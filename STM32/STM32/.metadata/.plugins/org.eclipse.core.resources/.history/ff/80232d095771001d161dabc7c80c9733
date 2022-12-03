@@ -1,0 +1,23 @@
+#include "keyPad.h"
+#include "keypad_cfg.h"
+#include "GPIO.h"
+#include "stm32f103x6.h"
+
+/* Avaliable keypads and its pins, ports and default state*/
+KeypadConfg_t Keypads[] =
+{
+		{
+				{{GPIO_PIN0, GPIOB},
+						{GPIO_PIN1, GPIOB},
+						{GPIO_PIN2, GPIOB},
+						{GPIO_PIN3, GPIOB}},
+
+						{{GPIO_PIN4, GPIOB},
+								{GPIO_PIN5, GPIOB},
+								{GPIO_PIN6, GPIOB},
+								{GPIO_PIN7, GPIOB}},
+								HIGH
+		}
+};
+
+uint8_t KeypadsCount = sizeof(Keypads) / sizeof(KeypadConfg_t);

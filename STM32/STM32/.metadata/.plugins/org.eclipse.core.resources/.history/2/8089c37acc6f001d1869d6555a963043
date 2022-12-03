@@ -1,0 +1,24 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   28/11/2022
+ *       @file   :   GPIO_cfg.h
+ *************************************************************/
+
+#ifndef GPIO_CFG_H_
+#define GPIO_CFG_H_
+#include "GPIO.h"
+
+
+/*Struct for pins configurations*/
+typedef struct
+{
+    uint16_t PinNum;  /* values in @ref GPIO_PIN_DEFINE*/
+    GPIOx_t* GPIOx;    /* GPIO ports*/
+    uint8_t PinMode;  /* values in @ref GPIO_PIN_MODE*/
+    uint8_t PinSpeed; /* values in @ref GPIO_PIN_SPEED*/
+} GPIO_Pinconfig_t;
+
+extern GPIO_Pinconfig_t PINs_Config[];
+extern uint8_t PinCount;
+
+#endif /* GPIO_CFG_H_ */

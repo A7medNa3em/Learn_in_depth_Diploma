@@ -1,0 +1,45 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   28/11/2022
+ *       @file   :   stm32f103x6.h
+ *************************************************************/
+
+#ifndef EXTI_H
+#define EXTI_H
+
+/*************************************************************
+includes
+*************************************************************/
+#include "stm32f103x6.h"
+#include "GPIO.h"
+
+
+/*************************************************************
+configuration structure
+*************************************************************/
+
+typedef enum {
+	RisingEdge,
+	FallingEdge,
+	RisingFallingEdge
+
+}EXTI_TriggerCase_t;
+
+typedef enum {
+	EXTI_Enabled,
+	EXTI_Enabled
+
+}EXTI_Status_t;
+
+typedef struct {
+	/* EXTI Mapping Pin , line , port */
+	uint8_t PinNum;
+	GPIOx_t EXTI_Port;
+
+	/* Trigger Case Rising , falling or rising falling */
+	EXTI_TriggerCase_t EXTI_TriggerCase ;
+
+}EXTI_Config_t;
+
+
+#endif

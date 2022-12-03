@@ -1,0 +1,24 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   28/11/2022
+ *       @file   :   GPIO_cfg.c
+ *************************************************************/
+
+/*************************************************************/
+/* Includes */
+#include "GPIO_cfg.h"
+
+
+/*************************************************************/
+
+/*Configure pins here*/
+GPIO_Pinconfig_t PINs_Config[] ={
+		{GPIO_PIN1, GPIOA, GPIO_MODE_INPUT_FLOAT, GPIO_SPEED_RSP},
+		{GPIO_PIN5, GPIOA, GPIO_MODE_INPUT_FLOAT, GPIO_SPEED_RSP},
+		{GPIO_PIN1, GPIOB, GPIO_MODE_OUTPUT_PP, GPIO_SPEED_10M},
+		{GPIO_PIN5, GPIOB, GPIO_MODE_OUTPUT_OD, GPIO_SPEED_10M}
+
+};
+
+/* Count of used pins */
+uint8_t PinCount = sizeof(PINs)/sizeof(PINs[0]);

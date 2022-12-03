@@ -1,0 +1,17 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   28/11/2022
+ *       @file   :   GPIO_cfg.h
+ *************************************************************/
+
+/*************************************************************/
+/* Includes */
+#include "GPIO.h"
+
+/*************************************************************/
+
+/*Configure pins here*/
+MCAL_GPIO_Init(GPIOB , &PINB1);
+	MCAL_GPIO_Init(GPIOB , &PINB5);
+	MCAL_GPIO_Init(GPIOA , &PINA1);
+	MCAL_GPIO_Init(GPIOA , &PINA5);

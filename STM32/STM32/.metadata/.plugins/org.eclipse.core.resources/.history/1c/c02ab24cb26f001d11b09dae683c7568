@@ -1,0 +1,15 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   28/11/2022
+ *       @file   :   GPIO_cfg.h
+ *************************************************************/
+
+/*************************************************************/
+/* Includes */
+#include "GPIO.h"
+
+/*************************************************************/
+
+/*Configure pins here*/
+GPIO_Pinconfig_t PINA1 = {GPIO_PIN0, GPIO_MODE_INPUT_FLOAT, GPIO_SPEED_RSP};
+GPIO_Pinconfig_t PINA13 = {GPIO_PIN13, GPIO_MODE_INPUT_OD, GPIO_SPEED_RSP};

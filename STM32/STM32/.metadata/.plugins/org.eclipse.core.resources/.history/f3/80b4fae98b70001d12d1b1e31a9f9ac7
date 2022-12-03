@@ -1,0 +1,23 @@
+#include "stdtypes.h"
+#include "dio.h"
+#include "keypad.h"
+#include "keypad_cfg.h"
+
+/* Avaliable keypads and its pins, ports and defult state*/
+KeypadConfg_t Keypads[] =
+    {
+        {{{GPIO_PIN0, GPIOC},
+          {PIN_1, GPIOC},
+          {PIN_2, GPIOC},
+          {PIN_3, GPIOC}},
+
+         {{PIN_4, GPIOC},
+          {PIN_5, GPIOC},
+          {PIN_6, GPIOC},
+          {PIN_7, PORT_C}},
+
+         HIGH}
+
+};
+
+uint8 KeypadsCount = sizeof(Keypads) / sizeof(KeypadConfg_t);

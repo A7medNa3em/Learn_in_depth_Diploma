@@ -1,0 +1,54 @@
+/*************************************************************
+ *       @author :   Ahmed Naeem
+ *       @date   :   1/12/2022
+ *       @file   :   EXTI.c
+ *************************************************************/
+#include "EXTI.h"
+
+
+/*************************************************************
+EXTI APIs
+ *************************************************************/
+
+/*************************************************************
+ *   @Fun - MCAL_GPIO_DeInit
+ *   @brief - Deinit GPIO port and return it to reset state
+ *   @param [in] - EXTI_Config
+ *   @retval -none
+ *   @Note -
+ */
+void MCAL_EXTI_Intit(EXTI_Config_t* EXTI_Config)
+{
+
+}
+
+
+/*************************************************************
+ *   @Fun - MCAL_EXTI_DeInit
+ *   @brief - Deinit EXTI  and return EXTI registers to reset state
+ *   @Note -
+ */
+void MCAL_EXTI_DeIntit(void)
+{
+	/* Reset all EXTI registers */
+	EXTI->EMR = 0x00000000 ;
+	EXTI->FTSR = 0x00000000;
+	EXTI->IMR =0x00000000 ;
+	EXTI->PR = 0x00000000;
+	EXTI->RTSR =0x00000000;
+
+	/* Clear by 1*/
+	EXTI->SWIER = 0xFFFFFFFF;
+/* Disable NVIC IRQs*/
+	EXTI0_IRQ6_DISABLE() ;
+	EXTI1_IRQ7_DISABLE() ;
+	EXTI2_IRQ8_DISABLE() ;
+	EXTI3_IRQ9_DISABLE() ;
+	EXTI4_IRQ10_DISABLE() ;
+	EXTI5_9_IRQ23_DISABLE() ;
+	EXTI10_15_IRQ40_DISABLE() ;
+
+
+
+
+}
